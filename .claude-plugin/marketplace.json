@@ -1,0 +1,13 @@
+{
+  "name": "agent-plugins",
+  "owner": {
+    "name": "Palette"
+  },
+  "plugins": [
+    {
+      "name": "orgtology",
+      "source": "./orgtology",
+      "description": "Syncs your team's Orgtology context from Palette into your project"
+    }
+  ]
+}
