@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "palette": {
+      "type": "url",
+      "url": "https://agents.palette.team/mcp"
+    }
+  }
+}
