@@ -2,7 +2,7 @@
   "mcpServers": {
     "palette": {
       "type": "url",
-      "url": "https://agents.palette.team/mcp"
+      "url": "https://api.palette.team/mcp"
     }
   }
 }
