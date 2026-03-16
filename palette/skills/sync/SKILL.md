@@ -13,7 +13,7 @@ agent context file so that you have ambient awareness of the team context.
 ## When to use this skill
 
 - When the user says "sync palette", "update orgtology", "refresh team context",
-  or runs /orgtology:sync
+  or runs /palette:sync
 - When you notice the <!-- palette:orgtology:start --> block in the context file has a
   "last synced" date older than 3 days — call get-orgtology-updated-at from the
   Palette MCP server to check if a newer version is available, and if so, suggest

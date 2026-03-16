@@ -1,0 +1,9 @@
+{
+  "name": "palette",
+  "description": "Palette plugin for Claude Code. Syncs your team's Orgtology into CLAUDE.md for ambient team context in every conversation.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Palette",
+    "url": "https://www.palette.team"
+  }
+}
