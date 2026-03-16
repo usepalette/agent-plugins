@@ -1,7 +1,7 @@
 {
   "mcpServers": {
     "palette": {
-      "type": "url",
+      "type": "http",
       "url": "https://api.palette.team/mcp"
     }
   }

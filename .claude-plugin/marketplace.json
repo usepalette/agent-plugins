@@ -5,9 +5,9 @@
   },
   "plugins": [
     {
-      "name": "orgtology",
-      "source": "./orgtology",
-      "description": "Syncs your team's Orgtology context from Palette into your project"
+      "name": "palette",
+      "source": "./palette",
+      "description": "Palette plugin for Claude Code — syncs Orgtology and more"
     }
   ]
 }

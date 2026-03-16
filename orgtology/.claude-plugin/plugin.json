@@ -1,9 +1,0 @@
-{
-  "name": "orgtology",
-  "description": "Fetches your team's Orgtology from Palette and syncs it into CLAUDE.md for ambient team context in every conversation.",
-  "version": "1.0.0",
-  "author": {
-    "name": "Palette",
-    "url": "https://www.palette.team"
-  }
-}
