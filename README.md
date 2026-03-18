@@ -12,12 +12,12 @@ in every conversation.
 
 Add the Palette marketplace:
 ```
-/plugin marketplace add palette-performance/agent-plugins
+/plugin marketplace add usepalette/agent-plugins
 ```
 
 Install the plugin:
 ```
-/plugin install orgtology@agent-plugins
+/plugin install palette@agent-plugins
 ```
 
 Your browser will open to authenticate with your Palette account.
