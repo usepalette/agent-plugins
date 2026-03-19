@@ -8,16 +8,16 @@ Syncs your team's Orgtology — a living document about your organization, team,
 priorities, and direction — into your project's agent context file for ambient context
 in every conversation.
 
-### Install (Claude Code)
+### Install (Claude Code / Cowork)
 
 Add the Palette marketplace:
-```
-/plugin marketplace add palette-performance/agent-plugins
+```bash
+/plugin marketplace add usepalette/agent-plugins
 ```
 
 Install the plugin:
-```
-/plugin install orgtology@agent-plugins
+```bash
+/plugin install palette@agent-plugins
 ```
 
 Your browser will open to authenticate with your Palette account.
@@ -25,7 +25,7 @@ Your browser will open to authenticate with your Palette account.
 ### Usage
 
 Run the slash command to sync:
-```
+```bash
 /orgtology:sync
 ```
 
@@ -41,5 +41,5 @@ will also suggest syncing if it detects your context is more than a few days old
 
 ### Requirements
 
-- Claude Code v2.0.12 or higher
+- Claude Code or Cowork with plugin support
 - A Palette account with an active team

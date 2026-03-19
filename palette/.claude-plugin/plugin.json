@@ -1,6 +1,6 @@
 {
   "name": "palette",
-  "description": "Palette plugin for Claude Code. Syncs your team's Orgtology into CLAUDE.md for ambient team context in every conversation.",
+  "description": "Palette plugin for Claude. Provides organizational context (Orgtology) about your team via MCP resources, with optional file sync to PALETTE.md.",
   "version": "1.0.0",
   "author": {
     "name": "Palette",
