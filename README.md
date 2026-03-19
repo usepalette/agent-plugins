@@ -11,12 +11,12 @@ in every conversation.
 ### Install (Claude Code)
 
 Add the Palette marketplace:
-```
+```bash
 /plugin marketplace add usepalette/agent-plugins
 ```
 
 Install the plugin:
-```
+```bash
 /plugin install palette@agent-plugins
 ```
 
@@ -25,7 +25,7 @@ Your browser will open to authenticate with your Palette account.
 ### Usage
 
 Run the slash command to sync:
-```
+```bash
 /orgtology:sync
 ```
 
