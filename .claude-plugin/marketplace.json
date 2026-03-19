@@ -7,7 +7,7 @@
     {
       "name": "palette",
       "source": "./palette",
-      "description": "Palette plugin for Claude Code — syncs Orgtology and more"
+      "description": "Palette plugin for Claude — syncs Orgtology and more"
     }
   ]
 }

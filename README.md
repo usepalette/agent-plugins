@@ -8,7 +8,7 @@ Syncs your team's Orgtology — a living document about your organization, team,
 priorities, and direction — into your project's agent context file for ambient context
 in every conversation.
 
-### Install (Claude Code)
+### Install (Claude Code / Cowork)
 
 Add the Palette marketplace:
 ```bash
@@ -41,5 +41,5 @@ will also suggest syncing if it detects your context is more than a few days old
 
 ### Requirements
 
-- Claude Code v2.0.12 or higher
+- Claude Code or Cowork with plugin support
 - A Palette account with an active team
