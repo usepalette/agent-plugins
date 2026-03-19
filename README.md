@@ -2,7 +2,7 @@
 
 Plugins for integrating [Palette](https://www.palette.team) with AI tools.
 
-## orgtology
+## palette
 
 Syncs your team's Orgtology — a living document about your organization, team,
 priorities, and direction — into your project's agent context file for ambient context
@@ -26,7 +26,7 @@ Your browser will open to authenticate with your Palette account.
 
 Run the slash command to sync:
 ```bash
-/orgtology:sync
+/palette:sync
 ```
 
 Or say "sync palette" or "update team context" in any conversation. The plugin
