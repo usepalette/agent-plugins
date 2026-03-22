@@ -26,7 +26,7 @@ Your browser will open to authenticate with your Palette account.
 
 Run the slash command to sync:
 ```bash
-/palette:sync
+/palette:sync-orgtology
 ```
 
 Or say "sync palette" or "update team context" in any conversation. The plugin

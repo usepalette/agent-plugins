@@ -14,7 +14,7 @@ for folder-scoped context.
 ## When to use this skill
 
 - When the user says "sync palette", "update orgtology", "refresh team context",
-  or runs /palette:sync
+  or runs /palette:sync-orgtology
 - When the user asks about team structure, priorities, or direction and no
   PALETTE.md exists — suggest syncing or reading the MCP resource directly
 - When PALETTE.md exists, check its "Last synced" timestamp against
@@ -32,12 +32,12 @@ For quick lookups without syncing, read resources directly:
 ## Syncing to PALETTE.md
 
 ### Default sync
-/palette:sync → reads orgtology:// → writes full orgtology to ./PALETTE.md
+/palette:sync-orgtology → reads orgtology:// → writes full orgtology to ./PALETTE.md
 
 ### Granular sync
-/palette:sync organization → reads orgtology://organization → writes org-only
-/palette:sync teams → reads orgtology://teams → writes teams-only
-/palette:sync me → reads orgtology://me → writes user profile only
+/palette:sync-orgtology organization → reads orgtology://organization → writes org-only
+/palette:sync-orgtology teams → reads orgtology://teams → writes teams-only
+/palette:sync-orgtology me → reads orgtology://me → writes user profile only
 
 ### How to sync
 
