@@ -48,7 +48,7 @@ For quick lookups without syncing, read resources directly:
 3. Write or update PALETTE.md in the current directory:
    - If PALETTE.md exists with <!-- palette:orgtology:start/end --> markers:
      replace everything between markers, update "Last synced" timestamp
-   - If PALETTE.md exists without markers: replace entire file content
+   - If PALETTE.md exists without markers: append the marker block at the end of the file
    - If PALETTE.md doesn't exist: create it
 4. If CLAUDE.md or .cursorrules exists in the same directory and doesn't
    already reference PALETTE.md, append:
