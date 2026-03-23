@@ -37,7 +37,7 @@ will also suggest syncing if it detects your context is more than a few days old
 - Connects to the Palette MCP server (authenticated via your Palette account)
 - Fetches your team's Orgtology (org info, team structure, priorities, direction)
 - Writes it into a clearly marked block in `PALETTE.md`
-- Adds a one-line reference from `CLAUDE.md`, `AGENTS.md`, `CURSORRULES`, or `.cursorrules` when available
+- Adds a one-line reference from `CLAUDE.md`, `AGENTS.md`, `CURSORRULES`, or `.cursorrules` when available; if none exist, creates `CLAUDE.md` with the reference
 - Checks for freshness and suggests updates when the Orgtology has changed
 
 ### Requirements
