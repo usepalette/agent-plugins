@@ -50,9 +50,11 @@ For quick lookups without syncing, read resources directly:
      replace everything between markers, update "Last synced" timestamp
    - If PALETTE.md exists without markers: append the marker block at the end of the file
    - If PALETTE.md doesn't exist: create it
-4. If CLAUDE.md or .cursorrules exists in the same directory and doesn't
-   already reference PALETTE.md, append:
-   "Organizational context is in PALETTE.md — read it for team context."
+4. Ensure one project instruction file references PALETTE.md:
+   - Check in this order: CLAUDE.md, AGENTS.md, CURSORRULES, .cursorrules
+   - If one exists and doesn't already reference PALETTE.md, append:
+     "Organizational context is in PALETTE.md — read it for team context."
+   - If none exist, create CLAUDE.md with that reference line
 5. Summarize what changed (new team members, updated priorities, etc.)
 
 ### File format
@@ -77,4 +79,4 @@ If already up to date, tell the user — don't re-sync unnecessarily.
 - Never overwrite content outside the <!-- palette:orgtology:start/end --> markers
 - Always preserve any manually added content in PALETTE.md
 - Write to the current directory, not the global ~/.claude/CLAUDE.md
-- The reference line in CLAUDE.md/.cursorrules should be added once, not duplicated
+- The reference line in CLAUDE.md, AGENTS.md, CURSORRULES, or .cursorrules should be added once, not duplicated

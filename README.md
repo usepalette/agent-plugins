@@ -5,8 +5,8 @@ Plugins for integrating [Palette](https://www.palette.team) with AI tools.
 ## palette
 
 Syncs your team's Orgtology — a living document about your organization, team,
-priorities, and direction — into your project's agent context file for ambient context
-in every conversation.
+priorities, and direction — into a local `PALETTE.md` file and links it from
+project instructions when possible for ambient context in conversations.
 
 ### Install (Claude Code / Cowork)
 
@@ -36,7 +36,8 @@ will also suggest syncing if it detects your context is more than a few days old
 
 - Connects to the Palette MCP server (authenticated via your Palette account)
 - Fetches your team's Orgtology (org info, team structure, priorities, direction)
-- Writes it into a clearly marked block in your project's agent context file (CLAUDE.md, AGENTS.md, etc.)
+- Writes it into a clearly marked block in `PALETTE.md`
+- Adds a one-line reference from `CLAUDE.md`, `AGENTS.md`, `CURSORRULES`, or `.cursorrules` when available
 - Checks for freshness and suggests updates when the Orgtology has changed
 
 ### Requirements
