@@ -29,6 +29,13 @@ For quick lookups without syncing, read resources directly:
 - orgtology://teams — team structure, projects, workstreams, working patterns
 - orgtology://me — your role, current focus, working style, key relationships
 
+If resource reads fail or are not supported by your client, use the
+get-orgtology tool instead with the equivalent scope:
+- get-orgtology scope="full" (equivalent to orgtology://)
+- get-orgtology scope="organization" (equivalent to orgtology://organization)
+- get-orgtology scope="teams" (equivalent to orgtology://teams)
+- get-orgtology scope="me" (equivalent to orgtology://me)
+
 ## Syncing to PALETTE.md
 
 ### Default sync
@@ -44,7 +51,7 @@ For quick lookups without syncing, read resources directly:
 1. Determine which resource to fetch:
    - No argument: orgtology://
    - With argument (organization, teams, me): orgtology://{argument}
-2. Read the resource from the Palette MCP server
+2. Read the resource from the Palette MCP server. If the resource read fails or is unsupported, call the get-orgtology tool with the corresponding scope.
 3. Write or update PALETTE.md in the current directory:
    - If PALETTE.md exists with <!-- palette:orgtology:start/end --> markers:
      replace everything between markers, update "Last synced" timestamp
