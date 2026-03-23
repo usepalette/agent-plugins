@@ -44,3 +44,33 @@ will also suggest syncing if it detects your context is more than a few days old
 
 - Claude Code or Cowork with plugin support
 - A Palette account with an active team
+
+## claude-desktop
+
+Claude Desktop Extension (`.mcpb`) that connects Claude Desktop to the Palette
+MCP server. Provides the same organizational context as the Claude Code plugin
+via a one-click installable extension.
+
+### Build
+
+```bash
+cd claude-desktop
+npm install
+npx @anthropic-ai/mcpb pack . palette.mcpb
+```
+
+### Install
+
+Drag the generated `palette.mcpb` file into Claude Desktop → Settings → Extensions.
+Your browser will open to authenticate with your Palette account on first use.
+
+### Tools
+
+- **get-orgtology** — Returns organizational context (full, organization, teams, or your profile)
+- **get-orgtology-updated-at** — Check when context was last updated
+
+### Requirements
+
+- Claude Desktop v0.10.0+
+- Node.js 18+
+- A Palette account with an active team

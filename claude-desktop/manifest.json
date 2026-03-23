@@ -1,0 +1,39 @@
+{
+  "manifest_version": "0.3",
+  "name": "palette",
+  "display_name": "Palette",
+  "version": "1.0.0",
+  "description": "Organizational context from Palette — team structure, priorities, projects, and working patterns for your AI conversations.",
+  "long_description": "Palette brings your organizational context into Claude. Once connected, Claude can access your team structure, priorities, projects, and working patterns to give you more relevant, context-aware responses.\n\nTools available:\n- get-orgtology: Returns org context (full, organization, teams, or your profile)\n- get-orgtology-updated-at: Check when context was last updated\n\nRequires a Palette account. Authentication is handled via OAuth — you'll be prompted to sign in on first use.",
+  "author": {
+    "name": "Palette",
+    "url": "https://palette.team"
+  },
+  "server": {
+    "type": "node",
+    "entry_point": "server/index.mjs",
+    "mcp_config": {
+      "command": "node",
+      "args": ["${__dirname}/server/index.mjs"],
+      "env": {}
+    }
+  },
+  "tools": [
+    {
+      "name": "get-orgtology",
+      "description": "Returns organizational context: team structure, priorities, projects, working patterns, and user profile"
+    },
+    {
+      "name": "get-orgtology-updated-at",
+      "description": "Returns when the organization's context was last updated"
+    }
+  ],
+  "homepage": "https://palette.team",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/usepalette/agent-plugins"
+  },
+  "support": "https://palette.team/support",
+  "license": "MIT",
+  "keywords": ["organization", "team", "context", "orgtology", "palette"]
+}

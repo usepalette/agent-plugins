@@ -1,0 +1,10 @@
+{
+  "name": "@palette/claude-desktop-extension",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Palette Claude Desktop Extension — bridges stdio to the remote Palette MCP server",
+  "dependencies": {
+    "mcp-remote": "^0.1.38"
+  }
+}

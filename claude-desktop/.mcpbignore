@@ -1,0 +1,41 @@
+# Dev / build artifacts
+.git/
+.gitignore
+.DS_Store
+*.test.js
+*.spec.js
+coverage/
+
+# Docs and changelogs (not needed at runtime)
+CHANGELOG.md
+HISTORY.md
+CHANGES.md
+README.md
+readme.md
+Readme.md
+readme.markdown
+*.md
+!manifest.json
+
+# Test files
+test/
+tests/
+__tests__/
+
+# Config files
+.eslintrc*
+.prettier*
+.npmignore
+.travis.yml
+.coveralls.yml
+tsconfig.json
+karma.conf.js
+Makefile
+component.json
+
+# Funding
+.github/
+
+# Type definitions (not needed for runtime)
+*.d.ts
+*.d.ts.map
