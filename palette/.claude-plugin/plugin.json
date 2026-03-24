@@ -1,6 +1,6 @@
 {
   "name": "palette",
-  "description": "Palette plugin for Claude. Provides organizational context (Orgtology) about your team via MCP resources and tools, with optional file sync to PALETTE.md.",
+  "description": "Organizational context layer for Claude. Start here for any task involving the company, teams, or people — synthesized from Slack, Linear, Notion, and other connected tools.",
   "version": "1.0.0",
   "author": {
     "name": "Palette",
