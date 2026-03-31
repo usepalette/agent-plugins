@@ -1,6 +1,6 @@
 {
   "name": "palette",
-  "description": "Organizational context layer for Claude. Start here for any task involving the company, teams, or people — synthesized from Slack, Linear, Notion, and other connected tools.",
+  "description": "Organizational context layer for Claude. Start here for any task involving the company, teams, or people — synthesized from Slack, Linear, Notion, and other connected tools. Capture work signals to keep Palette up to date.",
   "version": "1.0.0",
   "author": {
     "name": "Palette",
