@@ -88,6 +88,7 @@ result was capped; narrow with `scope`/`scopeId`.
 
 ### File format
 
+```md
 <!-- palette:context:start -->
 # Palette context (synced)
 Last synced: {YYYY-MM-DDTHH:mm:ssZ}
@@ -100,6 +101,7 @@ Scope: {full | org | team | person}
 {page markdown}
 
 <!-- palette:context:end -->
+```
 
 ## Staleness check
 
