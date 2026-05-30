@@ -7,7 +7,8 @@
     {
       "name": "palette",
       "source": "./palette",
-      "description": "Palette plugin for Claude — syncs Orgtology, captures work signals, and more"
+      "version": "1.1.0",
+      "description": "Palette plugin for Claude — syncs context pages, shares work updates, and more"
     }
   ]
 }
